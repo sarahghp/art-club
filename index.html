@@ -3,49 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Gems In SVG</title>
-
-  <style>
-    
-    .gems--line01 {
-      transform: translate(60px, 60px);
-    }
-
-    .gems--line02 {
-      transform: translate(60px, 300px);
-    }
-
-    .triangle {
-      fill: #ff0048;
-    }
-
-    .square {
-      fill: #00a887;
-      transform: translate(185px, 0);
-    }
-
-    .pent {
-      fill: #4a4f54;
-      transform: translate(399px, 0);
-    }
-
-    .hex {
-      fill: #0054a8;
-      transform: translate(615px, 0);
-    }
-
-    .hept {
-      fill: #d8d8d8;
-      transform: translate(812px, 0);
-    }
-
-    .oct {
-      fill: #fff70f;
-      transform: translate(1025px, 0);
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="1000px">
+    <defs>
+      <pattern id="circles-1" patternUnits="userSpaceOnUse" width="10" height="10">
+        <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSIjZmZmIiAvPgogIDxjaXJjbGUgY3g9IjEiIGN5PSIxIiByPSIxIiBmaWxsPSIjZmYwMDQ4Ii8+Cjwvc3ZnPg==" x="0" y="0" width="10" height="10">
+        </image>
+      </pattern>
+      <pattern id="circles-2" patternUnits="userSpaceOnUse" width="10" height="10">
+        <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPScjZmZmJyAvPgogIDxjaXJjbGUgY3g9JzEuNScgY3k9JzEuNScgcj0nMS41JyBmaWxsPScjMDBhODg3Jy8+Cjwvc3ZnPgo=" x="0" y="0" width="10" height="10">
+        </image>
+      </pattern>
+      <pattern id="circles-3" patternUnits="userSpaceOnUse" width="10" height="10">
+        <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPScjZmZmJyAvPgogIDxjaXJjbGUgY3g9JzInIGN5PScyJyByPScyJyBmaWxsPScjNGE0ZjU0Jy8+Cjwvc3ZnPg==" x="0" y="0" width="10" height="10">
+        </image>
+      </pattern>
+      <pattern id="circles-4" patternUnits="userSpaceOnUse" width="10" height="10">
+        <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPScjZmZmJyAvPgogIDxjaXJjbGUgY3g9JzIuNScgY3k9JzIuNScgcj0nMi41JyBmaWxsPScjMDA1NGE4Jy8+Cjwvc3ZnPg==" x="0" y="0" width="10" height="10">
+        </image>
+      </pattern>
+      <pattern id="circles-5" patternUnits="userSpaceOnUse" width="10" height="10">
+        <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPScjZmZmJyAvPgogIDxjaXJjbGUgY3g9JzMnIGN5PSczJyByPSczJyBmaWxsPScjZDhkOGQ4Jy8+Cjwvc3ZnPgo=" x="0" y="0" width="10" height="10">
+        </image>
+      </pattern>
+      <pattern id="circles-6" patternUnits="userSpaceOnUse" width="10" height="10">
+        <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPScjZmZmJyAvPgogIDxjaXJjbGUgY3g9JzMuNScgY3k9JzMuNScgcj0nMy41JyBmaWxsPScjZmZmNzBmJy8+Cjwvc3ZnPgo=" x="0" y="0" width="10" height="10">
+        </image>
+      </pattern>
+    </defs>
     <g class="gems--line01">
       <path class="triangle" d="M92.0428016 0 183.878562 151.279046 0.207041521 151.279046z"/>
       <path class="square" d="M106.042802 0 212.085603 100.852697 106.042802 201.705395 0 100.852697z"/>
@@ -55,13 +42,14 @@
       <path class="oct" d="M106.042802 0 181.026386 29.5390712 212.085603 100.852697 181.026386 172.166324 106.042802 201.705395 31.0592175 172.166324 0 100.852697 31.0592175 29.5390712z"/>
     </g>
     <g class="gems--line02">
-      <path class="triangle" d="M92.0428016 0 183.878562 151.279046 0.207041521 151.279046z"/>
-      <path class="square" d="M106.042802 0 212.085603 100.852697 106.042802 201.705395 0 100.852697z"/>
-      <path class="pent" d="M101.042802 0 201.895499 69.6875 163.373196 182.444244 38.7124067 182.444244 0.190104131 69.6875z"/>
-      <path class="hex" d="M92.0428016 0 183.878562 50.4263487 183.878562 151.279046 92.0428016 201.705395 0.207041521 151.279046 0.207041521 50.4263487z"/>
-      <path class="hept" d="M103.5 0 186.407601 37.9720691 206.884087 123.294534 149.510247 191.717838 57.4897527 191.717838 0.115912866 123.294534 20.5923992 37.9720691z"/>
-      <path class="oct" d="M106.042802 0 181.026386 29.5390712 212.085603 100.852697 181.026386 172.166324 106.042802 201.705395 31.0592175 172.166324 0 100.852697 31.0592175 29.5390712z"/>
+      <path class="triangle halftone" d="M92.0428016 0 183.878562 151.279046 0.207041521 151.279046z"/>
+      <path class="square halftone" d="M106.042802 0 212.085603 100.852697 106.042802 201.705395 0 100.852697z"/>
+      <path class="pent halftone" d="M101.042802 0 201.895499 69.6875 163.373196 182.444244 38.7124067 182.444244 0.190104131 69.6875z"/>
+      <path class="hex halftone" d="M92.0428016 0 183.878562 50.4263487 183.878562 151.279046 92.0428016 201.705395 0.207041521 151.279046 0.207041521 50.4263487z"/>
+      <path class="hept halftone" d="M103.5 0 186.407601 37.9720691 206.884087 123.294534 149.510247 191.717838 57.4897527 191.717838 0.115912866 123.294534 20.5923992 37.9720691z"/>
+      <path class="oct halftone" d="M106.042802 0 181.026386 29.5390712 212.085603 100.852697 181.026386 172.166324 106.042802 201.705395 31.0592175 172.166324 0 100.852697 31.0592175 29.5390712z"/>
     </g>
   </svg>
+  <div id="test"></div>
 </body>
 </html>
