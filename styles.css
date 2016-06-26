@@ -3,7 +3,11 @@
 }
 
 .gems--line02 {
-  transform: translate(60px, 300px);
+  transform: translate(60px, 300px) scale(1.2);
+}
+
+.gems--line03 {
+  transform: translate(60px, 600px) scale(.7);
 }
 
 .triangle {
@@ -57,14 +61,4 @@
 
 .oct.halftone {
   fill: url(#circles-6) #fff;
-}
-
-#test {
-  position: absolute;
-  top: 800px;
-  left: 100px;
-  width: 100%;
-  height: 100px;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSIjZmZmIiAvPgogIDxjaXJjbGUgY3g9IjEiIGN5PSIxIiByPSIxIiBmaWxsPSIjZmYwMDQ4Ii8+Cjwvc3ZnPg==");
-  background-repeat: repeat;
 }
