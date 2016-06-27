@@ -1,0 +1,51 @@
+.square.halftone.d1 {
+  fill: url(#rect-circles-2) #fff;
+}
+
+.pent.halftone.d1 {
+  fill: url(#pent-circles-2) #fff;
+}
+
+.hex.halftone.d2 {
+  fill: url(#hex-circles-4) #fff;
+}
+
+.hex.halftone.d1 {
+  fill: url(#hex-circles-2) #fff;
+}
+
+.hept.halftone.d3 {
+  fill: #fff70f;
+}
+
+.gems {
+  transform: translate(300px, 300px);
+}
+
+#g1 {
+  transform: translate(20%, -20%) rotate(55deg);
+}
+
+#g2 {
+  transform: translate(80%, -50%) rotate(15deg);
+}
+
+#g3 {
+  transform: translate(2%, 40%) rotate(87deg);
+}
+
+#g4 {
+  transform: translate(70%, -60%) rotate(115deg);
+}
+
+#g5 {
+  transform: translate() rotate();
+}
+
+#g6 {
+  transform: translate(40%, 14%) rotate(115deg);
+}
+
+#g7 {
+  transform: translate(50%, 60%) rotate(115deg);
+}
