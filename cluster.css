@@ -19,7 +19,7 @@
 }
 
 .gems {
-  transform: translate(300px, 300px);
+  transform: translate(1010px, 420px);
 }
 
 #g1 {
@@ -27,6 +27,7 @@
 }
 
 #g2 {
+  animation: fade 50s infinite 10s;
   transform: translate(80%, -50%) rotate(15deg);
 }
 
@@ -39,7 +40,7 @@
 }
 
 #g5 {
-  transform: translate() rotate();
+  /*currently remains unchanged*/
 }
 
 #g6 {
@@ -48,4 +49,19 @@
 
 #g7 {
   transform: translate(50%, 60%) rotate(115deg);
+  animation: fade 50s infinite;
+}
+
+@keyframes fade {
+  0%, 100% {
+    fill-opacity: 1;
+  }
+
+  5% {
+    fill-opacity: .7;
+  }
+
+  50% {
+    fill-opacity: .2;
+  }
 }
