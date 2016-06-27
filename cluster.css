@@ -19,7 +19,7 @@
 }
 
 .gems {
-  transform: translate(1010px, 420px);
+  transform: translate(220px, 330px) rotate(-90deg) scale(.97);
 }
 
 #g1 {
@@ -57,11 +57,19 @@
     fill-opacity: 1;
   }
 
-  5% {
+  2% {
     fill-opacity: .7;
+  }
+
+  5% {
+    fill-opacity: .5;
   }
 
   50% {
     fill-opacity: .2;
+  }
+
+  54% {
+    fill-opacity: 0;
   }
 }
