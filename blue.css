@@ -1,0 +1,72 @@
+body {
+  /*background-color: #0054a8;*/
+}
+
+.left, .right {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+}
+
+.left {
+  top: 0;
+  left: 0;
+  background-color: #0054a8;
+}
+
+.right {
+  top: 0;
+  right: 0;
+}
+
+.halftone.d1 {
+  fill: url(#circles-2) #fff;
+}
+
+.halftone.d2 {
+  fill: url(#circles-5) #fff;
+}
+
+.halftone.d3 {
+  fill: url(#circles-7) #fff;
+}
+
+.opaque {
+  fill: rgba(255, 255, 255, 0.52);
+}
+
+.halftone.b1 {
+  fill: url(#blue-circles-2) #fff;
+}
+
+.halftone.b2 {
+  fill: url(#blue-circles-5) #fff;
+}
+
+.blue {
+  fill: rgba(0, 84, 168, 0.57);
+}
+
+.gems {
+  transform: translate(220px, 330px) rotate(-90deg) scale(.97);
+}
+
+.gems.two {
+  transform: translate(500px, 200px) rotate(90deg) scale(.97);
+}
+
+.gems.three {
+  transform: translate(500px, 200px) rotate(90deg) scale(.97);
+}
+
+#g5 {
+  /*currently remains unchanged*/
+}
+
+#g6 {
+  transform: translate(40%, 14%) rotate(115deg);
+}
+
+#g7 {
+  transform: translate(66%, 50%) rotate(115deg);
+}
