@@ -1,0 +1,94 @@
+{
+  "all the time" : [
+    {
+      "touchFrequency": 7,
+      "reasonToTouch": "comforts"
+    },
+    {
+      "touchFrequency": 6,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 6,
+      "reasonToTouch": "enables"
+    },
+    {
+      "touchFrequency": 6,
+      "reasonToTouch": "enables"
+    },
+    {
+      "touchFrequency": 5,
+      "reasonToTouch": "enables"
+    },
+    {
+      "touchFrequency": 4,
+      "reasonToTouch": "enables"
+    },
+    {
+      "touchFrequency": 4,
+      "reasonToTouch": "enables"
+    }
+  ],
+
+  "sometimes" : [
+    {
+      "touchFrequency": 7,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 8,
+      "reasonToTouch": "enables"
+    },
+    {
+      "touchFrequency": 5,
+      "reasonToTouch": "comforts"
+    },
+    {
+      "touchFrequency": 7,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 6,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 6,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 8,
+      "reasonToTouch": "reminds"
+    }
+  ],
+
+  "rarely" : [
+    {
+      "touchFrequency": 8,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 4,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 2,
+      "reasonToTouch": "comforts"
+    },
+    {
+      "touchFrequency": 6,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 6,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 8,
+      "reasonToTouch": "reminds"
+    },
+    {
+      "touchFrequency": 5,
+      "reasonToTouch": "comforts"
+    }
+  ]
+}

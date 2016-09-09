@@ -1,0 +1,348 @@
+{
+  "1" : {
+    "notes": "",
+    "total_length": 4953,
+    "volumes": 2,
+    "pub_date": 1979,
+    "contents": [
+      {
+        "period": "1620–1820",
+        "pages": 575,
+        "authors" : {
+          "male": {
+            "number": 16,
+            "total_pages": 484,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          },
+          "female": {
+            "number": 4,
+            "total_pages": 71,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 1
+          }
+        }
+      },
+      {
+        "period": "1820–1865",
+        "pages": 1817,
+        "authors" : {
+          "male": {
+            "number": 18,
+            "total_pages": 1619,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 1
+          },
+          "female": {
+            "number": 3,
+            "total_pages": 101,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1865–1914",
+        "pages": 1014,
+        "authors" : {
+          "male": {
+            "number": 15,
+            "total_pages": 776,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 2
+          },
+          "female": {
+            "number": 5,
+            "total_pages": 225,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1914–1945",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number": 23,
+            "total_pages": 686,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 4
+          },
+          "female": {
+            "number": 8,
+            "total_pages": 133,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1945–",
+        "pages": 705,
+        "authors" : {
+          "male": {
+            "number": 30,
+            "total_pages": 556,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 4
+          },
+          "female": {
+            "number": 9,
+            "total_pages": 125,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 1
+          }
+        }
+      }
+    ]
+  },
+
+  "4" : {
+    "notes": "whole new section",
+    "total_length": ,
+    "volumes": 2,
+    "pub_date": 1994,
+    "contents": [
+      {
+        "period": "Before 1620",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1620–1820",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number": ,
+            "total_pages": ,
+            "added": 1111111, // if this is off by one it is because I added one
+            "removed": 11,
+            "total_nonwhite": 1 
+          },
+          "female": {
+            "number": ,
+            "total_pages": ,
+            "added": 1,
+            "removed": 0,
+            "total_nonwhite": 1
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": "1820–1865",
+        "authors" : {
+          "male": {
+            "number": ,
+            "total_pages": ,
+            "added": 3,
+            "removed": 1,
+            "total_nonwhite":
+          },
+          "female": {
+            "number": ,
+            "total_pages": ,
+            "added": 3,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1865–1914",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number": ,
+            "total_pages": ,
+            "added": 9,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number": ,
+            "total_pages": ,
+            "added": 4,
+            "removed": 1,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1914-1945",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number": ,
+            "total_pages": ,
+            "added": 7,
+            "removed": 3,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": 9,
+            "removed": 0,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1945–",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number": ,
+            "total_pages": ,
+            "added": 19,
+            "removed": 3,
+            "total_nonwhite":
+          },
+          "female": {
+            "number": ,
+            "total_pages": ,
+            "added": 13,
+            "removed": 2,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  },
+
+  "8" : {
+    "notes": "sections slightly shifted, add/remove compares by book",
+    "total_length": ,
+    "volumes": 5,
+    "pub_date": 2012,
+    "contents": [
+      {
+        "period": "Before 1700",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number": ,
+            "total_pages":,
+            "added": 111111111111,
+            "removed": 111111,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": 11111111,
+            "removed": 1,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1820–1865",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": 11111111111111,
+            "removed": 11111,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": 11111111111,
+            "removed": 1,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1865–1914",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": 11111111111,
+            "removed": 111,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": 1111111,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1914–1945",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": 11111,
+            "removed": 111,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": 1111,
+            "removed": 11111,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": "1945–",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": 111111111111111111111111111,
+            "removed": 111111,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": 1111111111111111111111,
+            "removed": 1111,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  }
+}

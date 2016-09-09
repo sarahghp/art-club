@@ -1,0 +1,710 @@
+// Saving in case I decide to fill out all but moving to just three volumes
+
+{
+  "1" : {
+    "notes": "",
+    "total_length": 4980,
+    "volumes": 2,
+    "pub_date": 1979,
+    "contents": [
+      {
+        "period": "1620–1820",
+        "pages": 575,
+        "authors" : {
+          "male": {
+            "number": 16,
+            "total_pages": 484,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          },
+          "female": {
+            "number": 4,
+            "total_pages": 71,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 1
+          }
+        }
+      },
+      {
+        "period": "1820–1865",
+        "pages": 1817,
+        "authors" : {
+          "male": {
+            "number": 18,
+            "total_pages": 1619,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 1
+          },
+          "female": {
+            "number": 3,
+            "total_pages": 101,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1865–1914",
+        "pages": 1014,
+        "authors" : {
+          "male": {
+            "number": 15,
+            "total_pages": 776,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 2
+          },
+          "female": {
+            "number": 5,
+            "total_pages": 225,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1914–1945",
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number": 23,
+            "total_pages": 686,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 4
+          },
+          "female": {
+            "number": 8,
+            "total_pages": 133,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1945–",
+        "pages": 705,
+        "authors" : {
+          "male": {
+            "number": 30,
+            "total_pages": 556,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 4
+          },
+          "female": {
+            "number": 9,
+            "total_pages": 125,
+            "added": ,
+            "removed": 0,
+            "total_nonwhite": 1
+          }
+        }
+      }
+    ]
+  },
+
+  "2" : {
+    "notes" : "only covers first volume", 
+    "total_length": 2518,
+    "volumes": 2,
+    "pub_date": 1985,
+    "contents": [
+      {
+        "period": "1620–1820",
+        "pages": 690,
+        "authors" : {
+          "male": {
+            "number": 20,
+            "total_pages": 614,
+            "added": 5 ,
+            "removed": 1,
+            "total_nonwhite": 0,
+          },
+          "female": {
+            "number": 4,
+            "total_pages": 76,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 1,
+          }
+        }
+      },
+      {
+        "period": "1820–1865",
+        "pages": 1840,
+        "authors" : {
+          "male": {
+            "number": 19,
+            "total_pages": 1690,
+            "added": 1,
+            "removed": 0,
+            "total_nonwhite": 1
+          },
+          "female": {
+            "number": 5,
+            "total_pages": 138,
+            "added": 2,
+            "removed": 0,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  },
+
+  "3" : {
+    "total_length": ,
+    "volumes": 2,
+    "pub_date": 1989,
+    "contents": [
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  },
+
+  "4" : {
+    "total_length": ,
+    "volumes": 2,
+    "pub_date": 1994,
+    "contents": [
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  },
+
+  "5" : {
+    "total_length": ,
+    "volumes": 2,
+    "pub_date": 1979,
+    "contents": [
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  },
+
+  "6" : {
+    "total_length": ,
+    "volumes": 5,
+    "pub_date": 2003,
+    "contents": [
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  },
+
+  "7": {
+      "total_length": ,
+      "volumes": 5,
+      "pub_date": 2007,
+      "contents": [
+        {
+          "period": ,
+          "pages": ,
+          "authors" : {
+            "male": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            },
+            "female": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            }
+          }
+        },
+        {
+          "period": ,
+          "pages": ,
+          "authors" : {
+            "male": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            },
+            "female": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            }
+          }
+        },
+        {
+          "period": ,
+          "pages": ,
+          "authors" : {
+            "male": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            },
+            "female": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            }
+          }
+        },
+        {
+          "period": ,
+          "pages": ,
+          "authors" : {
+            "male": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            },
+            "female": {
+              "number":,
+              "total_pages":,
+              "added": ,
+              "removed": ,
+              "total_nonwhite":
+            }
+          }
+        }
+      ]
+  },
+
+  "8" : {
+    "total_length": ,
+    "volumes": 5,
+    "pub_date": 2012,
+    "contents": [
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      },
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      }
+    ]
+  }
+}
+
+      {
+        "period": ,
+        "pages": ,
+        "authors" : {
+          "male": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          },
+          "female": {
+            "number":,
+            "total_pages":,
+            "added": ,
+            "removed": ,
+            "total_nonwhite":
+          }
+        }
+      }
