@@ -2,6 +2,8 @@
   "1" : {
     "notes": "",
     "total_length": 4953,
+    "total_read": 2478,
+    "total_liked": 875,
     "volumes": 2,
     "pub_date": 1979,
     "contents": [
@@ -111,6 +113,8 @@
   "4" : {
     "notes": "whole new section",
     "total_length": 5383,
+    "total_read": 2223,
+    "total_liked": 736,
     "volumes": 2,
     "pub_date": 1994,
     "contents": [
@@ -239,7 +243,9 @@
 
   "8" : {
     "notes": "sections slightly shifted, add/remove compares by book",
-    "total_length": ,
+    "total_length": 5551,
+    "total_read": 2222,
+    "total_liked": 1076,
     "volumes": 5,
     "pub_date": 2012,
     "contents": [
