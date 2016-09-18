@@ -1,0 +1,99 @@
+body {
+  background: gray;
+}
+
+.triangle.halftone {
+  /*fill: url(#pink-circles-7) #fff;*/
+  fill: #ff0048;
+}
+
+.square.halftone {
+  /*fill: url(#green-circles-6) #fff;*/
+  fill: #00a887;
+}
+
+.pent.halftone {
+  fill: url(#dg-circles-5) #fff;
+  /*fill: #4a4f54;*/
+}
+
+.hex.halftone {
+  /*fill: url(#blue-circles-4) #fff;*/
+  fill: #0054a8;
+}
+
+.oct.halftone {
+  fill: url(#yellow-circles-2) #fff;
+}
+
+#bkg {
+  fill: #fff;
+}
+
+.gems {
+  transform: translate(440px, 840px); 
+}
+
+#g1 {
+  transform-origin: 50% 50%;
+  transform: scale(5);
+  opacity: .5;
+}
+
+#g2 {
+  transform-origin: 50% 50%;
+  transform: scale(5);
+  opacity: .5;
+}
+
+#g3 {
+  transform-origin: 50% 50%;
+  transform: scale(4);
+  opacity: .1;
+}
+
+#g4 {
+  transform-origin: 50% 50%;
+  transform: scale(3.6);
+  opacity: .1;
+}
+
+#g5 {
+  transform-origin: 50% 50%;
+  transform: scale(3);
+  opacity: .5;
+}
+
+#g6 {
+  transform-origin: 50% 50%;
+  transform: scale(2.4);
+  opacity: .3;
+}
+
+#g7 {
+  transform-origin: 50% 50%;
+  transform: translate(24px, 0px) scale(1.4);
+  opacity: .5;
+}
+
+@keyframes fade {
+  0%, 100% {
+    fill-opacity: 1;
+  }
+
+  2% {
+    fill-opacity: .7;
+  }
+
+  5% {
+    fill-opacity: .5;
+  }
+
+  50% {
+    fill-opacity: .2;
+  }
+
+  54% {
+    fill-opacity: 0;
+  }
+}

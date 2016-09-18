@@ -1,0 +1,100 @@
+body {
+  background: gray;
+}
+
+.triangle.halftone {
+  fill: url(#pink-circles-7) #fff;
+  /*fill: #ff0048;*/
+}
+
+.square.halftone {
+  /*fill: url(#green-circles-6) #fff;*/
+  fill: #00a887;
+}
+
+.pent.halftone {
+  fill: url(#dg-circles-5) #fff;
+  /*fill: #4a4f54;*/
+}
+
+.hex.halftone {
+  fill: url(#blue-circles-4) #fff;
+  /*fill: #0054a8;*/
+}
+
+.oct.halftone {
+  fill: url(#yellow-circles-6) #fff;
+}
+
+#bkg {
+  fill: #fff;
+}
+
+.gems {
+  transform: translate(100px, 100px);
+}
+
+.tops {
+  transform: translate(700px, 0px);
+}
+
+.bottoms {
+  transform: translate(-30px, 1200px);
+}
+
+#g1 {
+  transform-origin: 50% 50%;
+  transform: translate(-190px, 200px) scale(.8);
+}
+
+#g2 {
+  transform-origin: 50% 50%;
+  transform: translate(0px, 200px) scale(.8);
+}
+
+#g3 {
+  transform-origin: 50% 50%;
+  transform: translate(-180px, 0px) scale(.8);
+}
+
+#g4 {
+  transform-origin: 50% 50%;
+  transform: translate(10px, 0) scale(.8);
+}
+
+#g5 {
+  transform-origin: 50% 50%;
+  transform: translate(0px, 340px) scale(.8);
+}
+
+#g6 {
+  transform-origin: 50% 50%;
+  transform: translate(0px, 150px) scale(.8);
+}
+
+#g7 {
+  transform-origin: 50% 50%;
+  transform: translate(24px, 0px) scale(.8);
+}
+
+@keyframes fade {
+  0%, 100% {
+    fill-opacity: 1;
+  }
+
+  2% {
+    fill-opacity: .7;
+  }
+
+  5% {
+    fill-opacity: .5;
+  }
+
+  50% {
+    fill-opacity: .2;
+  }
+
+  54% {
+    fill-opacity: 0;
+  }
+}
