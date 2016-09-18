@@ -1,3 +1,16 @@
+body {
+  background: gray;
+}
+
+.background {
+  width: 1080px;
+  height: 1920px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
 .square.halftone.d1 {
   fill: url(#rect-circles-2) #fff;
 }
@@ -19,7 +32,7 @@
 }
 
 .gems {
-  transform: translate(220px, 330px) rotate(-90deg) scale(.97);
+  transform: translate(660px, 270px) rotate(-170deg) scale(-.97);
 }
 
 #g1 {
