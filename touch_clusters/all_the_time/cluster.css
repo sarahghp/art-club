@@ -32,7 +32,10 @@ body {
 }
 
 .gems {
-  transform: translate(660px, 270px) rotate(-170deg) scale(-.97);
+  /*transform: translate(660px, 270px) rotate(-170deg) scale(-.97);*/
+  /*Alternates below*/
+  /*translate(440px, 390px) rotate(-170deg) scale(-1.97);*/
+  transform: translate(660px, 270px) rotate(-170deg) scale(-10.97);
 }
 
 #g1 {
