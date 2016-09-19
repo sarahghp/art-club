@@ -64,14 +64,25 @@ d3.json('../data-sets/norton_after1820.json', function(data){
 
     var arc = d3.arc()
           .innerRadius(0)
-          .startAngle(Math.PI / 2)
-          .endAngle(3 * Math.PI / 2);
+          .startAngle(Math.PI / 2);
 
     var arch = function(d){
       var addedAndRemoved = (d.authors.female.added + d.authors.female.removed 
-                                    + d.authors.male.added + d.authors.male.removed) || 1;
+                              + d.authors.male.added + d.authors.male.removed) || 1;
 
-      arc.outerRadius(aScale(addedAndRemoved));
+      arc.outerRadius(aScale(addedAndRemoved))
+         .endAngle(3 * Math.PI / 2);
+      return arc();
+    }
+
+    var fArch = function(d){
+      var addedAndRemoved = (d.authors.female.added + d.authors.female.removed 
+                              + d.authors.male.added + d.authors.male.removed || 1)
+          per = (d.authors.female.added + d.authors.female.removed) / 
+                    (d.authors.male.added + d.authors.male.removed);
+
+      arc.outerRadius(aScale(addedAndRemoved))
+         .endAngle((3 * Math.PI / 2)*per)
       return arc();
     }
 
@@ -101,18 +112,29 @@ d3.json('../data-sets/norton_after1820.json', function(data){
         .attr('points', tPoints)
         .attr('class', 'total');
 
-    row.selectAll('path')
+    row.selectAll('path-s')
       .data(data)
       .enter()
       .append('path')
       .attr('d', arch)
       .style('transform-origin', '0 0')
       .style('transform', function(d, i) { 
-        console.log(d.start, xScale(d.start) + 20); 
         var addedAndRemoved = (d.authors.female.added + d.authors.female.removed 
                                     + d.authors.male.added + d.authors.male.removed) || 1;
         return 'translate(' + (xScale(d.start) + aScale(addedAndRemoved)) + 'px, ' + 300 + 'px)'})
       .attr('class', 'arcs');
+
+    row.selectAll('path-d')
+          .data(data)
+          .enter()
+          .append('path')
+          .attr('d', fArch)
+          .style('transform-origin', '0 0')
+          .style('transform', function(d, i) { 
+            var addedAndRemoved = (d.authors.female.added + d.authors.female.removed 
+                                        + d.authors.male.added + d.authors.male.removed) || 1;
+            return 'translate(' + (xScale(d.start) + aScale(addedAndRemoved)) + 'px, ' + 300 + 'px)'})
+          .attr('class', 'dot-arcs');
 
 
   }); // ends _.forEach

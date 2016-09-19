@@ -11,8 +11,13 @@ polygon {
   /*opacity: .7;*/
 }
 
-.arcs {
+.arcs  {
   fill: #004d3d;
+}
+
+.dot-arcs {
+  fill: url(#circles-3) #fff;
+  opacity: .2;
 }
 
 .row-1979 {
