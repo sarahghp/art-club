@@ -1,0 +1,27 @@
+body {
+  background: gray;
+}
+
+.triangle.halftone {
+  /*fill: url(#pink-circles-7) #fff;*/
+}
+
+#bkg {
+  fill: #00a887;
+}
+
+polygon {
+  fill :#fff;
+}
+
+.row-1979 {
+  
+}
+
+.row-1994 {
+  transform: translate(0, 400px);
+}
+
+.row-2012 {
+  transform: translate(0, 800px);
+}
