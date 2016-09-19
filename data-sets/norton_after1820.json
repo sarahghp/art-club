@@ -8,26 +8,6 @@
     "pub_date": 1979,
     "contents": [
       {
-        "period": "1620-1820",
-        "pages": 575,
-        "authors" : {
-          "male": {
-            "number": 16,
-            "total_pages": 484,
-            "added": 0,
-            "removed": 0,
-            "total_nonwhite": 0
-          },
-          "female": {
-            "number": 4,
-            "total_pages": 71,
-            "added": 0,
-            "removed": 0,
-            "total_nonwhite": 1
-          }
-        }
-      },
-      {
         "period": "1820-1865",
         "pages": 1817,
         "authors" : {
@@ -119,46 +99,6 @@
     "pub_date": 1994,
     "contents": [
       {
-        "period": "1493-1620",
-        "pages": 120,
-        "authors" : {
-          "male": {
-            "number": 12,
-            "total_pages": 120,
-            "added": 12,
-            "removed": 0,
-            "total_nonwhite": 0
-          },
-          "female": {
-            "number": 0,
-            "total_pages": 0.1,
-            "added": 0,
-            "removed": 0,
-            "total_nonwhite": 0
-          }
-        }
-      },
-      {
-        "period": "1620-1820",
-        "pages": 758,
-        "authors" : {
-          "male": {
-            "number": 23,
-            "total_pages": 407,
-            "added": 7, 
-            "removed": 2,
-            "total_nonwhite": 2 
-          },
-          "female": {
-            "number": 5,
-            "total_pages": 103,
-            "added": 1,
-            "removed": 0,
-            "total_nonwhite": 1
-          }
-        }
-      },
-      {
         "period": "1820-1865",
         "pages": 1634,
         "authors" : {
@@ -249,26 +189,6 @@
     "volumes": 5,
     "pub_date": 2012,
     "contents": [
-      {
-        "period": "1400-1820",
-        "pages": 344,
-        "authors" : {
-          "male": {
-            "number": 43,
-            "total_pages": 699,
-            "added": 12,
-            "removed": 6,
-            "total_nonwhite": 9
-          },
-          "female": {
-            "number": 12,
-            "total_pages": 216,
-            "added": 8,
-            "removed": 1,
-            "total_nonwhite": 1 
-          }
-        }
-      },
       {
         "period": "1820-1865",
         "pages": 1833,

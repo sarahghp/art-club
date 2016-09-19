@@ -12,6 +12,7 @@ body {
 
 polygon {
   fill :#fff;
+  opacity: .5;
 }
 
 .row-1979 {
@@ -19,9 +20,9 @@ polygon {
 }
 
 .row-1994 {
-  transform: translate(0, 400px);
+  transform: translate(0, 600px);
 }
 
 .row-2012 {
-  transform: translate(0, 800px);
+  transform: translate(0, 1200px);
 }
