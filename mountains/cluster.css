@@ -8,8 +8,11 @@ body {
 }
 
 polygon {
-  fill :#fff;
   /*opacity: .7;*/
+}
+
+.arcs {
+  fill: #004d3d;
 }
 
 .row-1979 {
@@ -26,6 +29,10 @@ polygon {
 
 .men {
   fill: url(#vertical-stripe-4) #fff;
+}
+
+.women {
+  fill :#fff;
 }
 
 .total {

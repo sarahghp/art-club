@@ -24,10 +24,14 @@ d3.json('../data-sets/norton_after1820.json', function(data){
 
     var xScale = d3.scaleLinear()
           .domain([1820, 2012])
-          .range([0, w]),
+          .range([20, w]),
         yScale = d3.scaleLinear()
           .domain([0.1, 2000])
-          .range([hRow, 0]);
+          .range([hRow, 0]),
+        aScale = d3.scaleLinear()
+          .domain([0, 50])
+          .range([0, hRow/2]);
+
 
     var mPoints = function(d) {
       var end = xScale(d.end) - 20;
@@ -40,6 +44,7 @@ d3.json('../data-sets/norton_after1820.json', function(data){
 
     var fPoints = function(d) {
       var start = xScale(d.start) + 20;
+      console.log(start);
       var arr = [[xScale(d.end), hRow], 
                   [xScale(d.end), yScale(d.authors.female.total_pages)], 
                   [start, hRow], 
@@ -56,6 +61,21 @@ d3.json('../data-sets/norton_after1820.json', function(data){
 
       return arr;
     }
+
+    var arc = d3.arc()
+          .innerRadius(0)
+          .startAngle(Math.PI / 2)
+          .endAngle(3 * Math.PI / 2);
+
+    var arch = function(d){
+      var addedAndRemoved = (d.authors.female.added + d.authors.female.removed 
+                                    + d.authors.male.added + d.authors.male.removed) || 1;
+
+      arc.outerRadius(aScale(addedAndRemoved));
+      return arc();
+    }
+
+
 
     var row = svg.append('g')
         .attr('class', 'row-'+ id);
@@ -81,7 +101,18 @@ d3.json('../data-sets/norton_after1820.json', function(data){
         .attr('points', tPoints)
         .attr('class', 'total');
 
-
+    row.selectAll('path')
+      .data(data)
+      .enter()
+      .append('path')
+      .attr('d', arch)
+      .style('transform-origin', '0 0')
+      .style('transform', function(d, i) { 
+        console.log(d.start, xScale(d.start) + 20); 
+        var addedAndRemoved = (d.authors.female.added + d.authors.female.removed 
+                                    + d.authors.male.added + d.authors.male.removed) || 1;
+        return 'translate(' + (xScale(d.start) + aScale(addedAndRemoved)) + 'px, ' + 300 + 'px)'})
+      .attr('class', 'arcs');
 
 
   }); // ends _.forEach
