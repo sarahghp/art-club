@@ -2,9 +2,6 @@ body {
   background: gray;
 }
 
-.triangle.halftone {
-  /*fill: url(#pink-circles-7) #fff;*/
-}
 
 #bkg {
   fill: #00a887;
@@ -12,7 +9,7 @@ body {
 
 polygon {
   fill :#fff;
-  opacity: .5;
+  /*opacity: .7;*/
 }
 
 .row-1979 {
@@ -25,4 +22,12 @@ polygon {
 
 .row-2012 {
   transform: translate(0, 1200px);
+}
+
+.men {
+  fill: url(#vertical-stripe-4) #fff;
+}
+
+.total {
+  fill: url(#horizontal-stripe-7) #fff;
 }

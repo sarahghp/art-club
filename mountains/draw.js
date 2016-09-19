@@ -6,14 +6,7 @@ d3.json('../data-sets/norton_after1820.json', function(data){
   var svg = d3.select('svg'),
       w = +svg.attr('width'),
       h = +svg.attr('height'),
-      hRow = 500
-      margin = {
-        top: 200,
-        left: 200
-      },
-      padding = {
-        top: 200
-      };
+      hRow = 300;
 
   svg = svg.append('g').attr('class', 'buddies');
 
@@ -56,10 +49,10 @@ d3.json('../data-sets/norton_after1820.json', function(data){
 
     var tPoints = function(d){
       var half = xScale(d.start) + (xScale(d.end) - xScale(d.start))/2;
-      var arr = [[xScale(d.start), hRow],
+      var arr = [[xScale(d.start) + 20, hRow],
                   [half, yScale(d.pages)],
-                  [xScale(d.end), hRow],
-                  [xScale(d.start), hRow]];
+                  [xScale(d.end) - 20, hRow],
+                  [xScale(d.start) + 20, hRow]];
 
       return arr;
     }
@@ -71,19 +64,22 @@ d3.json('../data-sets/norton_after1820.json', function(data){
         .data(data)
         .enter()
         .append('polygon')
-        .attr('points', mPoints);
+        .attr('points', mPoints)
+        .attr('class', 'men');
 
     row.selectAll('polygon-f')
         .data(data)
         .enter()
         .append('polygon')
-        .attr('points', fPoints);
+        .attr('points', fPoints)
+        .attr('class', 'women');
 
     row.selectAll('polygon-t')
         .data(data)
         .enter()
         .append('polygon')
-        .attr('points', tPoints);
+        .attr('points', tPoints)
+        .attr('class', 'total');
 
 
 
