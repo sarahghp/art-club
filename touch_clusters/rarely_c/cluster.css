@@ -1,0 +1,109 @@
+body {
+  background: gray;
+}
+
+.yellow-c {
+  fill: url(#yellow-circles-6) #fff;
+}
+
+.yellow-h {
+  fill: url(#yellow-horizontal-stripe-7) #fff;
+}
+
+.blue-v {
+  fill: url(#blue-horizontal-stripe-4) #fff;
+}
+
+.blue-h {
+  fill: url(#blue-vertical-stripe-6) #fff;
+}
+
+.gray-c {
+  fill: url(#dg-circles-5) #fff;
+}
+
+.green-v {
+  fill: url(#green-vertical-stripe-3) #fff;
+}
+
+.pink-d {
+  fill: url(#pink-diagonal-stripe-3) #fff;
+}
+
+#bkg {
+  fill: #fff;
+}
+
+.gems {
+  transform: translate(200px, 200px);
+}
+
+.gems path {
+  opacity: .6;
+}
+
+.med-buddies{
+  transform: translate(430px, -140px);
+}
+
+.wee-buddies{
+  transform-origin: 50% 50%;
+  transform: translate(0px, 1000px) rotate(180deg);
+}
+
+#g1 {
+  transform-origin: 50% 50%;
+  transform: translate(-190px, 200px) scale(1.8);
+}
+
+#g2 {
+  transform-origin: 50% 50%;
+  transform: translate(70px, 510px) scale(-2, 2);
+}
+
+#g3 {
+  transform-origin: 50% 50%;
+  transform: translate(50px, 313px) scale(2);
+}
+
+#g4 {
+  transform-origin: 50% 50%;
+  transform: translate(10px, 0) scale(1.8);
+}
+
+#g5 {
+  transform-origin: 50% 50%;
+  transform: translate(0px, 340px) scale(1.8);
+}
+
+#g6 {
+  transform-origin: 50% 50%;
+  transform: translate(0px, 20px) scale(1.8);
+}
+
+#g7 {
+  transform-origin: 50% 50%;
+  transform: translate(24px, 0px) scale(1.8);
+}
+
+@keyframes fade {
+  0%, 100% {
+    fill-opacity: 1;
+  }
+
+  2% {
+    fill-opacity: .7;
+  }
+
+  5% {
+    fill-opacity: .5;
+  }
+
+  50% {
+    fill-opacity: .2;
+  }
+
+  54% {
+    fill-opacity: 0;
+  }
+}
