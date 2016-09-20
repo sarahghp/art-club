@@ -1,0 +1,49 @@
+body {
+  background: gray;
+}
+
+#bkg-1 {
+  fill: #e4bcbc;
+}
+
+#bkg-2, #bkg-3 {
+  fill: url(#diagonal-stripe-1);
+  transform: scale(.5);
+}
+
+.pages-1979 {
+  transform: translate(240px, 200px);
+}
+
+.pages-1994 {
+  transform: translate(440px, 800px);    
+}
+
+.pages-2012 {
+  transform: translate(340px, 1400px);
+}
+
+.loved-1979 {
+  transform: translate(330px, -20px);
+}
+
+.loved-1994 {
+  transform: translate(660px, 950px);
+}
+
+.loved-2012 {
+  transform: translate(110px, 1260px);
+}
+
+.peeps-0 {
+  transform: translate(330px, -20px);
+}
+
+.peeps-1 {
+  transform: translate(660px, 950px) scale(-1);
+}
+
+.peeps-2 {
+  transform: translate(260px, 1370px);
+}
+
