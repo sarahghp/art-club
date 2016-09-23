@@ -1,6 +1,6 @@
 console.log('Hi.');
 
-d3.json('../data-sets/norton_after1820.json', function(data){
+d3.json('../../data-sets/norton_after1820.json', function(data){
 
   data = _.map(data, function(d) { return d });
   var alike = _.map(data, function(d){

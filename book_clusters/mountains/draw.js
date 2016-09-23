@@ -1,6 +1,6 @@
 console.log('Hi.');
 
-d3.json('../data-sets/norton_after1820.json', function(data){
+d3.json('../../data-sets/norton_after1820.json', function(data){
   console.log(data);
 
   var svg = d3.select('svg'),
