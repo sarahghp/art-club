@@ -18,16 +18,28 @@ body {
   transform: translate(340px, 1400px);
 }
 
-.loved-1979 {
+.read-1979 {
   transform: translate(330px, -20px);
 }
 
-.loved-1994 {
+.read-1994 {
   transform: translate(660px, 950px);
 }
 
-.loved-2012 {
+.read-2012 {
   transform: translate(110px, 1260px);
+}
+
+.loved-1979 {
+  transform: translate(130px, 80px);
+}
+
+.loved-1994 {
+  transform: translate(460px, 1050px);
+}
+
+.loved-2012 {
+  transform: translate(410px, 1360px);
 }
 
 .peeps-0 {

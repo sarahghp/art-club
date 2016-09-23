@@ -70,8 +70,8 @@ d3.json('../../data-sets/norton_after1820.json', function(data){
     .attr('cx', 100)
     .attr('cy', 100)
     .attr('r', function(d) { return rScale(d.total_read) / Math.PI; })
-    .attr('fill', 'url(#dg-circles-2) #fff')
-    .attr('class', function(d) { return 'loved-' + d.pub_date });
+    .attr('fill', 'url(#db-circles-8) #fff')
+    .attr('class', function(d) { return 'read-' + d.pub_date });
 
   svg.selectAll('s-circle')
     .data(data)
