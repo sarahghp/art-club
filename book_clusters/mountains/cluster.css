@@ -1,7 +1,8 @@
 body {
   background: gray;
+  margin: 0;
+  padding: 0;
 }
-
 
 #bkg {
   fill: #00a887;
@@ -42,4 +43,98 @@ polygon {
 
 .total {
   fill: url(#horizontal-stripe-7) #fff;
+}
+
+#toAnimate {
+  transform-origin: 50% 100%;
+  /*animation: rock 30s 5s;*/
+  animation: upside-float 40s 5s linear;
+}
+
+@keyframes rock {
+  0%, 45% {
+    transform: rotate(0deg);
+  }
+
+  15% {
+    transform: rotate(15deg);
+  }
+
+  30% {
+    transform: rotate(-25deg);
+  }
+  
+}
+
+@keyframes float {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  15% {
+    transform: translateY(-200px) rotate(15deg);
+  }
+
+  37% {
+    transform: translateY(-800px) rotate(-25deg);
+  }
+
+  50% {
+   transform: translateY(-1000px) rotate(15deg) 
+  }
+
+  80% {
+    transform: translateY(-1800px) rotate(-25deg);
+    opacity: 1;
+  }
+
+  81% {
+    opacity: 0;
+  }
+
+  85% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes upside-float {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: translateY(-200px) rotate(15deg);
+  }
+
+  18% {
+    transform: translateY(-400px) rotate(-20deg);
+  }
+
+  68% {
+   transform: translateY(-1480px) rotate(180deg) 
+  }
+
+  82% {
+    transform: translateY(-1920px) rotate(275deg);
+    opacity: 1;
+  }
+
+  86% {
+    transform: translateY(-2000px) rotate(380deg);
+    opacity: 0;
+  }
+
+  88% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

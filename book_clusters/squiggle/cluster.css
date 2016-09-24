@@ -1,5 +1,12 @@
 body {
   background: gray;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  margin: 0;
+  padding: 0;
 }
 
 #bkg-1 {
@@ -54,3 +61,33 @@ body {
   transform: translate(260px, 1370px) skew(-30deg) scale(3);
 }
 
+#rc-1 {
+  /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+  /*animation: wiggle 10s 10s infinite;*/
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translate(660px, 950px) scale(1);
+  }
+
+  9% {
+    transform: translate(660px, 950px) scaleX(1);
+  }
+
+  10% {
+    transform: translate(660px, 950px) scaleX(.5);
+  }
+
+  11% {
+    transform: translate(660px, 950px) scaleX(1);
+  }
+
+  12% {
+    transform: translate(660px, 950px) scaleY(.4);
+  }
+
+  13% {
+    transform: translate(660px, 950px) scaleY(1);
+  }
+}
