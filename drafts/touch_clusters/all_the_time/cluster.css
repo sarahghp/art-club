@@ -1,0 +1,94 @@
+body {
+  background: gray;
+  margin: 0;
+  padding: 0;
+}
+
+
+.background {
+  width: 1080px;
+  height: 1920px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.square.halftone.d1 {
+  fill: url(#rect-circles-2) #fff;
+}
+
+.pent.halftone.d1 {
+  fill: url(#pent-circles-2) #fff;
+}
+
+.hex.halftone.d2 {
+  fill: url(#hex-circles-4) #fff;
+}
+
+.hex.halftone.d1 {
+  fill: url(#hex-circles-2) #fff;
+}
+
+.hept.halftone.d3 {
+  fill: #fff70f;
+}
+
+.gems {
+  /*transform: translate(660px, 270px) rotate(-170deg) scale(-.97);*/
+  /*Alternates below*/
+  /*translate(440px, 390px) rotate(-170deg) scale(-1.97);*/
+  transform: translate(660px, 270px) rotate(-170deg) scale(-10.97);
+}
+
+#g1 {
+  transform: translate(20%, -20%) rotate(55deg);
+}
+
+#g2 {
+  animation: fade 50s infinite 10s;
+  transform: translate(80%, -50%) rotate(15deg);
+}
+
+#g3 {
+  transform: translate(2%, 40%) rotate(87deg);
+}
+
+#g4 {
+  transform: translate(70%, -60%) rotate(115deg);
+}
+
+#g5 {
+  /*currently remains unchanged*/
+}
+
+#g6 {
+  transform: translate(40%, 14%) rotate(115deg);
+}
+
+#g7 {
+  transform: translate(50%, 60%) rotate(115deg);
+  animation: fade 50s infinite;
+}
+
+@keyframes fade {
+  0%, 94%, 100% {
+    fill-opacity: 1;
+  }
+
+  4% {
+    fill-opacity: .7;
+  }
+
+  8% {
+    fill-opacity: .5;
+  }
+
+  50% {
+    fill-opacity: .2;
+  }
+
+  54% {
+    fill-opacity: 0;
+  }
+}

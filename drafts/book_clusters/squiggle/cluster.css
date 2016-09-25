@@ -1,0 +1,93 @@
+body {
+  background: gray;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  margin: 0;
+  padding: 0;
+}
+
+#bkg-1 {
+  fill: #fff;
+}
+
+.pages-1979 {
+  transform: translate(240px, 200px);
+}
+
+.pages-1994 {
+  transform: translate(440px, 800px);    
+}
+
+.pages-2012 {
+  transform: translate(340px, 1400px);
+}
+
+.read-1979 {
+  transform: translate(330px, -20px);
+}
+
+.read-1994 {
+  transform: translate(660px, 950px);
+}
+
+.read-2012 {
+  transform: translate(110px, 1260px);
+}
+
+.loved-1979 {
+  transform: translate(130px, 80px);
+}
+
+.loved-1994 {
+  transform: translate(460px, 1050px);
+}
+
+.loved-2012 {
+  transform: translate(410px, 1360px);
+}
+
+.peeps-0 {
+  transform: translate(330px, -20px) skew(-30deg) scale(3);
+}
+
+.peeps-1 {
+  transform: translate(660px, 950px) scale(-1) skew(-30deg) scale(3);
+}
+
+.peeps-2 {
+  transform: translate(260px, 1370px) skew(-30deg) scale(3);
+}
+
+#rc-1 {
+  /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+  /*animation: wiggle 10s 10s infinite;*/
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translate(660px, 950px) scale(1);
+  }
+
+  9% {
+    transform: translate(660px, 950px) scaleX(1);
+  }
+
+  10% {
+    transform: translate(660px, 950px) scaleX(.5);
+  }
+
+  11% {
+    transform: translate(660px, 950px) scaleX(1);
+  }
+
+  12% {
+    transform: translate(660px, 950px) scaleY(.4);
+  }
+
+  13% {
+    transform: translate(660px, 950px) scaleY(1);
+  }
+}

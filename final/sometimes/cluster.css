@@ -128,7 +128,7 @@ body {
     transform: scale(1.1);
   }
 
-  100% {
+  90% {
     transform: scale(1);
   }
   

@@ -1,0 +1,274 @@
+{
+  "Volume 1" : {
+    "notes": "",
+    "total_length": 4953,
+    "total_read": 2478,
+    "total_liked": 875,
+    "volumes": 2,
+    "pub_date": 1979,
+    "contents": [
+      {
+        "period": "1820-1865",
+        "pages": 1817,
+        "authors" : {
+          "male": {
+            "number": 18,
+            "total_pages": 1619,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 1
+          },
+          "female": {
+            "number": 3,
+            "total_pages": 101,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1865-1914",
+        "pages": 1014,
+        "authors" : {
+          "male": {
+            "number": 15,
+            "total_pages": 776,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 2
+          },
+          "female": {
+            "number": 5,
+            "total_pages": 225,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1914-1945",
+        "pages": 842,
+        "authors" : {
+          "male": {
+            "number": 23,
+            "total_pages": 686,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 4
+          },
+          "female": {
+            "number": 8,
+            "total_pages": 133,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 0
+          }
+        }
+      },
+      {
+        "period": "1945-1979",
+        "pages": 705,
+        "authors" : {
+          "male": {
+            "number": 30,
+            "total_pages": 556,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 4
+          },
+          "female": {
+            "number": 9,
+            "total_pages": 125,
+            "added": 0,
+            "removed": 0,
+            "total_nonwhite": 1
+          }
+        }
+      }
+    ]
+  },
+
+  "Volume 4" : {
+    "notes": "whole new section",
+    "total_length": 5383,
+    "total_read": 2223,
+    "total_liked": 736,
+    "volumes": 2,
+    "pub_date": 1994,
+    "contents": [
+      {
+        "period": "1820-1865",
+        "pages": 1634,
+        "authors" : {
+          "male": {
+            "number": 20,
+            "total_pages": 1484,
+            "added": 3,
+            "removed": 1,
+            "total_nonwhite": 2
+          },
+          "female": {
+            "number": 6,
+            "total_pages": 149,
+            "added": 3,
+            "removed": 0,
+            "total_nonwhite": 1
+          }
+        }
+      },
+      {
+        "period": "1865-1914",
+        "pages": 938,
+        "authors" : {
+          "male": {
+            "number": 23,
+            "total_pages": 661,
+            "added": 9,
+            "removed": 0,
+            "total_nonwhite": 6
+          },
+          "female": {
+            "number": 8,
+            "total_pages": 277,
+            "added": 4,
+            "removed": 1,
+            "total_nonwhite": 1
+          }
+        }
+      },
+      {
+        "period": "1914-1945",
+        "pages": 831,
+        "authors" : {
+          "male": {
+            "number": 27,
+            "total_pages": 479,
+            "added": 7,
+            "removed": 3,
+            "total_nonwhite": 6
+          },
+          "female": {
+            "number": 14,
+            "total_pages": 256,
+            "added": 9,
+            "removed": 0,
+            "total_nonwhite": 1 
+          }
+        }
+      },
+      {
+        "period": "1945-1994",
+        "pages": 1064,
+        "authors" : {
+          "male": {
+            "number": 46,
+            "total_pages": 799,
+            "added": 19,
+            "removed": 3,
+            "total_nonwhite": 7
+          },
+          "female": {
+            "number": 21,
+            "total_pages": 246,
+            "added": 13,
+            "removed": 2,
+            "total_nonwhite": 10
+          }
+        }
+      }
+    ]
+  },
+
+  "Volume 8" : {
+    "notes": "sections slightly shifted, add/remove compares by book",
+    "total_length": 5551,
+    "total_read": 2222,
+    "total_liked": 1076,
+    "volumes": 5,
+    "pub_date": 2012,
+    "contents": [
+      {
+        "period": "1820-1865",
+        "pages": 1833,
+        "authors" : {
+          "male": {
+            "number": 32,
+            "total_pages": 1408,
+            "added": 14,
+            "removed": 5,
+            "total_nonwhite": 7
+          },
+          "female": {
+            "number": 17,
+            "total_pages": 425,
+            "added": 11,
+            "removed": 1,
+            "total_nonwhite": 3
+          }
+        }
+      },
+      {
+        "period": "1865-1914",
+        "pages": 1151,
+        "authors" : {
+          "male": {
+            "number": 34,
+            "total_pages": 741,
+            "added": 11,
+            "removed": 3,
+            "total_nonwhite": 12
+          },
+          "female": {
+            "number": 17,
+            "total_pages": 336,
+            "added": 7,
+            "removed": 0,
+            "total_nonwhite": 5
+          }
+        }
+      },
+      {
+        "period": "1914-1945",
+        "pages": 1050,
+        "authors" : {
+          "male": {
+            "number": 32,
+            "total_pages": 566,
+            "added": 5,
+            "removed": 3,
+            "total_nonwhite": 7
+          },
+          "female": {
+            "number": 12,
+            "total_pages": 361,
+            "added": 4,
+            "removed": 5,
+            "total_nonwhite": 2
+          }
+        }
+      },
+      {
+        "period": "1945-2012",
+        "pages": 1173,
+        "authors" : {
+          "male": {
+            "number": 65,
+            "total_pages": 806,
+            "added": 27,
+            "removed": 6,
+            "total_nonwhite": 12
+          },
+          "female": {
+            "number": 85,
+            "total_pages": 367,
+            "added": 22,
+            "removed": 4,
+            "total_nonwhite": 20
+          }
+        }
+      }
+    ]
+  }
+}

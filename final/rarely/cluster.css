@@ -135,7 +135,7 @@ path {
 }
 
 @keyframes wiggle {
-  0%, 4%, 10%, 24%, 84% {
+  0%, 4%, 10%, 24%, 84%, 90% {
     transform: translate(0px, 20px) scale(1.8) rotate(0deg);
   }
 

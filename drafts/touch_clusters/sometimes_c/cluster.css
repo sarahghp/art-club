@@ -1,0 +1,135 @@
+body {
+  background: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.halftone.d2 {
+  fill: url(#circles-2) #fff;
+}
+
+.halftone.d4 {
+  fill: url(#circles-4) #fff;
+}
+
+.halftone.d6 {
+  fill: url(#circles-7) #fff;
+}
+
+.solid {
+  fill: hsla(360, 100%, 100%, .6);
+}
+
+#bkg {
+  fill: #003acc;
+}
+
+.gems {
+  transform-origin: 100px 100px;
+  transform: translate(100px, 100px); 
+}
+
+.topTwo {
+  transform: scale(4);
+  /*transform: scale(2.5) translate(130px, 40px)*/
+}
+
+.lowerSets {
+  transform: translate(0, 1000px);
+}
+
+#g1 {
+  transform-origin: 50% 50%;
+  /*animation: flip 15s 2s;*/
+  animation: breathe 15s infinite;
+}
+
+#g2 {
+  transform-origin: 160px 160px;
+  transform: rotate(20deg) translate(60px, -80px);
+}
+
+#g3 {
+  transform: translate(0, 0) scale(3);
+}
+
+#g4 {
+  transform: translate(-810px, 160px) scale(8);
+}
+
+#g5 {
+   transform: translate(170px, 400px) scale(10);
+}
+
+#g6 {
+   transform: translate(530px, 160px) scale(10);
+}
+
+#g7 {
+  transform: scale(10);
+  opacity: 0.4;
+}
+
+@keyframes flip {
+
+  0% {
+    transform: scaleX(1)
+  }
+
+  20% {
+    transform: scaleX(-1);
+  }
+
+  80% {
+    transform: scaleX(-1);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+  
+}
+
+@keyframes throb {
+
+  0% {
+    transform: scale(1)
+  }
+
+  29% {
+    transform: scale(1.1)
+  }
+
+  30% {
+    transform: scale(1.2);
+  }
+
+  32% {
+    transform: scale(1.4);
+  }
+
+  34% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+  
+}
+
+@keyframes breathe {
+
+  0% {
+    transform: scale(1)
+  }
+
+  34% {
+    transform: scale(1.1);
+  }
+
+  90% {
+    transform: scale(1);
+  }
+  
+}

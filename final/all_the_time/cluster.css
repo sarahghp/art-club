@@ -72,15 +72,15 @@ body {
 }
 
 @keyframes fade {
-  0%, 100% {
+  0%, 94%, 100% {
     fill-opacity: 1;
   }
 
-  2% {
+  4% {
     fill-opacity: .7;
   }
 
-  5% {
+  8% {
     fill-opacity: .5;
   }
 
