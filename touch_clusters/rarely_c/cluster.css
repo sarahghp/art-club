@@ -56,8 +56,8 @@ path {
 #g1 {
   transform-origin: 50% 50%;
   transform: translate(-190px, 200px) scale(1.8);
-  /*animation: flicker 8s infinite ease-in-out;*/
-  animation: brighten 16s infinite;
+  opacity: .4;
+  animation: brighten 16s 5;
 
 }
 
@@ -79,14 +79,14 @@ path {
 #g5 {
   transform-origin: 50% 50%;
   transform: translate(0px, 340px) scale(1.8);
-  opacity: .5;
-  /*animation: brighten 16s infinite;*/
+  opacity: .4;
+  animation: brighten 16s 20s 5;
 }
 
 #g6 {
   transform-origin: 50% 50%;
   transform: translate(0px, 20px) scale(1.8);
-  /*animation: rock 20s infinite;*/
+  animation: wiggle 16s;
 }
 
 #g7 {
@@ -96,15 +96,19 @@ path {
 
 @keyframes brighten {
   100% {
-    fill-opacity: .6;
+    opacity: .4;
   }
 
-  5% {
-    fill-opacity: .8;
+  55% {
+    opacity: .6;
   }
 
-  10% {
-    fill-opacity: 1;
+  20% {
+    opacity: .8;
+  }
+
+  22%, 62% {
+    opacity: 1;
   }
 }
 
@@ -130,17 +134,68 @@ path {
   }
 }
 
-@keyframes rock {
-  0%, 100% {
+@keyframes wiggle {
+  0%, 4%, 10%, 24%, 84% {
     transform: translate(0px, 20px) scale(1.8) rotate(0deg);
   }
 
-  25% {
-    transform: translate(0px, 20px) scale(1.8) rotate(15deg);
+  5% {
+    transform: translate(0px, 20px) scale(1.8) rotate(5deg);
   }
 
-  75% {
+  6% {
+    transform: translate(0px, 20px) scale(1.8) rotate(-15deg);
+  }
+
+  7% {
+    transform: translate(0px, 20px) scale(1.8) rotate(5deg);
+  }
+
+  8% {
     transform: translate(0px, 20px) scale(1.8) rotate(-25deg);
   }
-  
+
+  9% {
+    transform: translate(0px, 20px) scale(1.8) rotate(5deg);
+  }
+
+  25% {
+    transform: translate(0px, 20px) scale(1.8) rotate(5deg);
+  }
+
+  26% {
+    transform: translate(0px, 20px) scale(1.8) rotate(-2deg);
+  }
+
+  27% {
+    transform: translate(0px, 20px) scale(1.8) rotate(7deg);
+  }
+
+  28% {
+    transform: translate(0px, 20px) scale(1.8) rotate(-5deg);
+  }
+
+  29% {
+    transform: translate(0px, 20px) scale(1.8) rotate(5deg);
+  }
+
+  85% {
+    transform: translate(0px, 20px) scale(1.8) rotate(5deg);
+  }
+
+  86% {
+    transform: translate(0px, 20px) scale(1.8) rotate(-2deg);
+  }
+
+  87% {
+    transform: translate(0px, 20px) scale(1.8) rotate(7deg);
+  }
+
+  88% {
+    transform: translate(0px, 20px) scale(1.8) rotate(-5deg);
+  }
+
+  89% {
+    transform: translate(0px, 20px) scale(1.8) rotate(5deg);
+  }
 }
