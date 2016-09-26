@@ -139,3 +139,5 @@ Show-wise this year I really liked the MoMA 60s show, Carmen Herrera and Stuart 
 ***
 
 *Last but not least: an Avatar*!
+
+![avatar](images/avatar.png)
